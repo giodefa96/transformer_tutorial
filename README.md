@@ -42,6 +42,13 @@ In the top right, click on the Select Kernel.
 And select the environment you got from the env info command.
 ```
 
+# Create new env
+```
+pyenv install <VERSION>
+poetry env use /full/path/to/python (find into user)
+poetry install
+```
+
 # Other guide:
 ```
 poetry new <Name Poetry>
